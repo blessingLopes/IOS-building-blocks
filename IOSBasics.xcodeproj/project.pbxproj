@@ -13,6 +13,7 @@
 		3B6C59191CA41C910007FEC0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B6C59181CA41C910007FEC0 /* Assets.xcassets */; };
 		3B6C59271CA41C910007FEC0 /* IOSBasicsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B6C59261CA41C910007FEC0 /* IOSBasicsTests.swift */; };
 		3B6C59321CA41C910007FEC0 /* IOSBasicsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B6C59311CA41C910007FEC0 /* IOSBasicsUITests.swift */; };
+		64FEFD851CA4D2F1009C80B4 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 64FEFD841CA4D2F1009C80B4 /* .gitignore */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +46,7 @@
 		3B6C592D1CA41C910007FEC0 /* IOSBasicsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IOSBasicsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B6C59311CA41C910007FEC0 /* IOSBasicsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IOSBasicsUITests.swift; sourceTree = "<group>"; };
 		3B6C59331CA41C910007FEC0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		64FEFD841CA4D2F1009C80B4 /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 				3B6C59151CA41C910007FEC0 /* Main.storyboard */,
 				3B6C59181CA41C910007FEC0 /* Assets.xcassets */,
 				3B6C591D1CA41C910007FEC0 /* Info.plist */,
+				64FEFD841CA4D2F1009C80B4 /* .gitignore */,
 			);
 			path = IOSBasics;
 			sourceTree = "<group>";
@@ -227,6 +230,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3B6C59191CA41C910007FEC0 /* Assets.xcassets in Resources */,
+				64FEFD851CA4D2F1009C80B4 /* .gitignore in Resources */,
 				3B6C59171CA41C910007FEC0 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -472,6 +476,7 @@
 				3B6C59381CA41C910007FEC0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3B6C59391CA41C910007FEC0 /* Build configuration list for PBXNativeTarget "IOSBasicsTests" */ = {
 			isa = XCConfigurationList;
@@ -480,6 +485,7 @@
 				3B6C593B1CA41C910007FEC0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3B6C593C1CA41C910007FEC0 /* Build configuration list for PBXNativeTarget "IOSBasicsUITests" */ = {
 			isa = XCConfigurationList;
@@ -488,6 +494,7 @@
 				3B6C593E1CA41C910007FEC0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

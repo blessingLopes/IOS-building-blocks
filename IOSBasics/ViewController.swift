@@ -10,25 +10,61 @@ import UIKit
 
 class ViewController: UIViewController {
     
+    // MARK:- Properties
     
+    var example : String
+    
+    
+    
+    // MARK: Init
     override init(nibName nibNameOrNil: String?, bundle nibBundleOrNil: NSBundle?) {
-        super.init(nibName: nibNameOrNil, bundle: nibBundleOrNil)
         
-        view.backgroundColor = UIColor.redColor()
+        example = " hello !"
+        super.init(nibName: nibNameOrNil, bundle: nibBundleOrNil)
         
     }
     
     required init?(coder aDecoder: NSCoder) {
-        fatalError("init(coder:) has not been implemented")
+        example = " hello !"
+        super.init(coder: aDecoder)
+        
+    }
+    
+    
+    init() {
+        self.example = " hello !"
+        super.init(nibName: nil, bundle: nil)
+    }
+    
+    // MARK: De-init
+    
+    deinit{
+        print("de init view controller")
+    }
+    
+    
+    
+    // MARK:- View life cycle
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        
+        setupViewController()
     }
     
     
     
     
+    override func didReceiveMemoryWarning() {
+        super.didReceiveMemoryWarning()
+        // Dispose of any resources that can be recreated.
+    }
     
     
-    override func viewDidLoad() {
-        super.viewDidLoad()
+    // MARK:- Private Convenience Methods
+    
+    private  func setupViewController(){
+        
+        view.backgroundColor = UIColor.redColor()
         
         let origin		= CGPointMake(150.0, 100.0)
         let size		= CGSizeMake(100.0, 100.0)
@@ -43,16 +79,11 @@ class ViewController: UIViewController {
         // add the view as a subView of our viewcontroller's view
         view.addSubview(whiteView)
         
+        
     }
     
     
     
     
-    
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
-    
-    
-}
+}// END
+
